@@ -21,6 +21,29 @@ perturbations. Hence, we ***do not*** provide any code for training of the model
 We would like to re-iterate that we expect that the model is already trained. Hence, please make sure you have saved the model weights. The model conversion process
 would first load the model weights and then convert the model to Foolbox.
 
+
+## Installation
+
+### Prerequisites
+
+Following software required to use this package:
+
+* It has been tested on GNU/Linux, and macOS systems running [Python 3.6, and 3.7](https://docs.python-guide.org/starting/installation/) installed.
+
+Additionally, other utility packages required can be obtained by taking a look at the `requirements.txt` file.
+
+### Installation procedure
+
+The requirements are placed in the requirements.txt file. Please use
+
+```pip install -r requirements.txt```
+
+to set up the dependencies. We also suggest making virtual environments
+by using [conda](https://docs.conda.io) or python virtual environment using
+```
+python3 -m venv /path/to/new/virtual/environment
+```
+
 ### Execution Steps
 
 To start with execute 
