@@ -138,6 +138,8 @@ is to ovveride the `run` method [here](https://github.com/bethgelab/foolbox/blob
 copy everything with changes to the code as per need. For the sake of keeping the framework simpler and easily extensible, we decided to skip the operation for such cases. 
 Developers are encouraged to update the code themselves and reach out to us for any help.
  
+## License:
+[GNU GPL v3](http://www.gnu.org/licenses/gpl.html)
  
  
   
